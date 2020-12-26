@@ -1,3 +1,12 @@
+<div align="center">
+	<br>
+	<a href="https://raw.githubusercontent.com/sindresorhus/css-in-readme-like-wat/master/readme.md">
+		<img src="header.svg" width="800" height="400">
+	</a>
+	<br>
+</div>
+
+
 1) Cloning into a project
     git clone https://github.com/DSC-JSCOE/coursera-full-stack-web-development.git
     
