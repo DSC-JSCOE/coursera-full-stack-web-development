@@ -19,46 +19,50 @@
 
 <body>
 
-        <!--Navbar Starts--> 
+<!--Navbar Starts--> 
 
         <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
             <div class="container">
-                <!--Hiding Navbar Contents using below div class--> 
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="30" width="41"></a>
                 <div class="collapse navbar-collapse" id="Navbar">
-                    <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
-                    </ul>     
+                            <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                    </ul>
                 </div>
-                <!--Hiding Navbar Contents using above div class--> 
             </div>
-
-            <!--Toggle button for Small Screens (Mobile Devices)--> 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-        </nav>
+        </nav>   
+<!--Navbar Ends--> 
     
-        <!--Navbar Ends--> 
-
+<!--Body Section Starts--> 
     <div>
         <header class="jumbotron">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8">
-                        <h1>Ristorante con Fusion</h1>
+                    <div class="col-md-6">
+                        <h1>Ristorante con Fusion </h1>
                         <p> We take inspiration from the World's best cuisines, and create a unique 
                             fusion experience. Our lipsmacking creations will tickle your culinary 
                             senses!
                         </p>
                     </div>
-                    <div class="col-md-4">
-                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_481313.png&f=1&nofb=1" height="142" width="150">
-                    </div>
+
+                    <div class="col col-sm align-self-left" style="text-align: center;">
+                    
+                    <img src="img/logo.png" class="img-fluid">
+                    
+                    <a class="btn btn-warning" href="#reservationForm" role="button">Reserve Table</a>
+                    
+                </div>
+
+
                 </div>
             </div>
         </header> 
@@ -66,43 +70,141 @@
         <div class="container">
             <br>
             <div class="row row-content">
+                <div class="media col-sm-9  ">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="img/uthappizza.png" alt="Uthappizza">
+                    <div class="media-body">
+                        <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT </span> <span class="badge badge-pill badge-secondary">$4.99</span></h2>
+                        <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
+                            Italian pizza, topped with Cerignola olives, ripe vine
+                            cherry tomatoes, Vidalia onion, Guntur chillies and
+                            Buffalo Paneer.</p>
+                    </div>
+                </div>
+
                 <div class="col-sm-3">
                     <h3>Our Lipsmacking Culinary Creations</h3>
                 </div>
-                <div class="col-sm-9">
-                    <h2>Uthappizza</h2>
-                    <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
-                </div>
+                
             </div>
             
-            <br>
-    
-            <div class="row row-content">
-                <div class="col-sm-3">
+            <br>    
+            <div class="row row-content align-items-center">
+                <div class="col-sm-4 col-md-2">
                     <h3>This Month's Promotions</h3>
                 </div>
-                <div class="col-sm-9">
-                    <h2>Weekend Grand Buffet</h2>
-                    <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="col-sm col-md">
+                    <div class="media">
+                        <div class="media-body flex-first">
+                            <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">HOT</span></h2>
+                            <p class="d-sm-block d-none">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person.</p>
+                        </div>
+                        <img class="d-flex mr-3 img-thumbnail align-self-top flex-last" src="img/buffet.png" alt="Buffet"> 
+                    </div>
                 </div>
-            </div>
+            </div>  
     
             <br>
 
-            <div class="row row-content">
-                <div class="col-sm-3">
+            <div class="row row-content align-items-top">
+                <div class="col-sm col-md flex-first">
+                    <div class="media">
+                        <img class="d-flex mr-3 img-thumbnail align-self-top"
+                        src="https://avatars1.githubusercontent.com/u/53385614?s=460&u=87a0c623d1928ed4322bef068581a4c251456de8&v=4" alt="Alberto Somayya" height="150" width="150">
+                        <div class="media-body">
+                            <h2 class="mt-0">Alberto Somayya</h2>
+                            <h4>Executive Chef</h4>
+                            <p class="hidden-xs-down d-none d-sm-block">Award winning three-star Michelin chef with wide
+                                International experience having worked closely with
+                                whos-who in the culinary world, he specializes in
+                                creating mouthwatering Indo-Italian fusion experiences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-3 flex-last">
                     <h3>Meet our Culinary Specialists</h3>
                 </div>
-                <div class="col-sm-9">
-                    <h2>Alberto Somayya</h2>
-                    <h4>Executive Chef</h4>
-                    <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+            <br>
+            </div>
+            <!-- Section Ends-->
+        </div>
+        <!-- Containere Ends-->
+
+        <div class="container">
+              <div id="reservationForm" class="row row-content align-items-center" >
+                <div class="col-md-1"></div>
+                <div class="col-12 col-md-10">
+                    <div class="card">
+                        <div class="form-group">
+                        <h3 class="card-header bg-warning text-white">Reserve a table</h3>
+                        </div>
+                        <div class="card-block">
+                            <form>
+                                <div class="form-group row p-1">
+                                    <label for="firstname" class="col-md-3 offset-1 col-form-label">Number of Guests</label>
+                                    <div class="col-md-8">
+                                        <div class="form-group">
+                                        <div class="btn-group" data-toggle="buttons">
+                                            <label class="btn btn-secondary active">
+                                                <input type="radio" name="nbPeople" value="1" autocomplete="off" checked> 1
+                                            </label>
+                                            <label class="btn btn-secondary">
+                                                <input type="radio" name="nbPeople" value="2" autocomplete="off"> 2
+                                            </label>
+                                            <label class="btn btn-secondary">
+                                                <input type="radio" name="nbPeople" value="3" autocomplete="off"> 3
+                                            </label>
+                                            <label class="btn btn-secondary">
+                                                <input type="radio" name="nbPeople" value="4" autocomplete="off"> 4
+                                            </label>
+                                            <label class="btn btn-secondary">
+                                                <input type="radio" name="nbPeople" value="5" autocomplete="off"> 5
+                                            </label>
+                                            <label class="btn btn-secondary">
+                                                <input type="radio" name="nbPeople" value="6" autocomplete="off"> 6
+                                            </label>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row p-1">
+                                    <label for="lastname" class="col-md-2 offset-1 col-form-label">Date and Time</label>
+                                    <div class="col-md-4">
+                                        <div class="input-group">
+                                            &nbsp; <span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span> &nbsp; &nbsp;
+                                            <input class="form-control" type="date" name="dateBooking" value="" placeholder="Date"> &nbsp; &nbsp;
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="input-group">
+                                            &nbsp;<span class="input-group-addon"><i class="fa fa-clock-o" aria-hidden="true"></i></span>&nbsp; &nbsp;
+                                            <input class="form-control" type="hour" name="hourBooking" value="" placeholder="Time"> &nbsp; &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row p-2">
+                                    <div class="offset-md-1 col-md-10">
+                                        <button type="submit" class="btn btn-primary">Reserve</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            <br>
-
         </div>
+        </div>
+
+    </div>
+<!--Body Section Ends--> 
+
+
+
+    <!--Footer Starts-->
+
 
         <footer class="footer">
             <div class="container">
